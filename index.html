@@ -1,46 +1,42 @@
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>HTML Example</title>
-  
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/about.css">
+    <meta charset="UTF-8">
+    <title>Web Image Example</title>
 </head>
 <body>
-  <section class="center">
-    <aside class="sidebar"></aside>
+    <button type="button" onclick="window.open('https://mynewwepsitedusdn.neocities.org/')">
+        <img src="배너.png" width="1200px" height="200px" border="1" style="position: absolute; top: 0px;">
+    </button>
+
+    <button type="button" onclick="window.open('free.html')">
+        <img src="자유 개시판.png" width="400px" height="400px" border="0" style="position: absolute; left: 140px; top: 400px;">
+    </button>
     
-    <section class="contents">
-      <!-- page will be include here -->
-      <section id="page" class="page">
-        <section id="about">
-          <section class="frame">
-            <h2><b>HELLO</b>WORLD</h2>
-            
-            <div class="cat">
-              <div class="picture">
-                <img src="images/mew.png" alt="Mew">
-              </div>
-              <small>Mew</small>
-            </div>
-            <div class="cat">
-              <div class="picture">
-                <img src="images/siesta.png" alt="Siesta">
-              </div>
-              <small>Siesta</small>
-            </div>
-            <div class="cat">
-              <div class="picture">
-                <img src="images/tiger.png" alt="Tiger">
-              </div>
-              <small>Tiger</small>
-            </div>
-          </section>
-        </section>
-      </section>
-    </section>
-  </section>
+    <button type="button" onclick="window.open('movie.html')">
+        <img src="영화 리뷰.png" width="400px" height="400px" border="0" style="position: absolute; left: 700px; top: 400px;">
+    </button>
+    
+    <button type="button" style="position: absolute; left: 140px; top: 900px;">
+        <img src="게임.png" width="400px" height="400px" border="0" usemap="#image-map">
+    </button>
+    
+    <map name="image-map">
+        <area target="" alt="구글 플래이" title="구글 플래이" onclick="window.open('https://play.google.com')" coords="8,201,174,366" shape="rect">
+        <area target="" alt="APK" title="APK" onclick="window.open('https://example.com/apk')" coords="359,360,203,201" shape="0">
+    </map>
+    
+    <button type="button" onclick="window.open('https://mynewwepsitedusdn.neocities.org/')">
+        <img src="추가 예정.png" width="400px" height="400px" border="0" style="position: absolute; left: 700px; top: 900px;">
+    </button>
+    
+    <button type="button" onclick="window.open('https://www.youtube.com', '_blank')">
+        <img src="유튜브.png" width="500px" height="500px" border="0" style="position: absolute; left: 140px; top: 1400px;">
+    </button>
+    
+    <button type="button" onclick="window.location.href='https://www.youtube.com'">
+        <img src="건의 사항.png" width="350px" height="500px" border="0" style="position: absolute; left: 750px; top: 1400px;">
+    </button>
+    
 </body>
 </html>
